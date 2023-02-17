@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height:100vh;
+    font-family:'Popping', sans-serif;
+    
+    
+}
+
+.social 
+{
+    display: flex;
+    margin-left: 0;
+    width: 100%;
+    place-items: center;
+    background-image: url(/IMAGES/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700342881.jpg);
+    
+}   
+    
+    
+    
+
+.wrapper .button{
+display: inline-block;
+height: 60px;
+width: 60px;
+margin: 0 5px;
+overflow: hidden;
+background: goldenrod;
+border-radius: 50px;
+cursor: pointer;
+box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+width: 200px;
+}
+.wrapper .button .icon{
+display: inline-block;
+height: 60px;
+width: 60px;
+text-align: center;
+border-radius: 50px;
+box-sizing: border-box;
+line-height: 60px;
+transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+background: #e01111;
+}
+.wrapper .button:nth-child(2):hover .icon{
+background: #e06660;
+}
+.wrapper .button:nth-child(3):hover .icon{
+background: skyblue;
+}
+.wrapper .button:nth-child(4):hover .icon{
+background: rgb(31, 8, 8);
+}
+.wrapper .button:nth-child(5):hover .icon{
+background: #4584ea;
+}
+.wrapper .button .icon i{
+font-size: 25px;
+line-height: 60px;
+transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+color: #fff;
+}
+.wrapper .button span{
+font-size: 20px;
+font-weight: 500;
+line-height: 60px;
+margin-left: 10px;
+transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+color: #e90808;
+}
+.wrapper .button:nth-child(2) span{
+color: #e06660;
+}
+.wrapper .button:nth-child(3) span{
+color: skyblue
+}
+.wrapper .button:nth-child(4) span{
+color: #333;
+}
+.wrapper .button:nth-child(5) span{
+color: #4584ea;
+}
+
+
+.logo{
+    width: 100vw;
+    height:300px;
+    background-image: url(/IMAGES/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700342881.jpg);
+}
+
+.logo img{
+
+    display: block;
+    width: 311;
+    height: 100%;
+    margin: auto;
+}
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    background-image: url(/IMAGES/Wallpaper5.png);
+    background-position: 0 100%;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    margin: auto;
+}
+
+.navbar img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+;
+    
+}
+
+
+.Optionsbar i:hover,  .navbar,  i.active{
+    background-color: goldenrod;
+}
+
+
+.Optionsbar{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style:normal;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    
+    
+}
+
+
+.Optionsbar a {
+    text-decoration: none;
+    font-weight: 600px;
+    transition: 0.4s;
+    padding: 10px 16px;
+    border-radius: 99px;
+    color: goldenrod;
+    margin-right: 10px;
+}
+
+
+.Optionsbar a.active, .Optionsbar a:hover {
+    background-color: whitesmoke;
+}
+
+.Optionsbar button{
+    background-color:green;
+    border-color: green;
+}
+
+
+
+:root{
+    --primary:gold;
+    --light: White;
+    --dark: black;
+
+}
+
+
+
+
+
+
+
+
+#home{
+    background-image: url(/IMAGES/vecteezy_charming-young-girl-happily-listens-to-music-dances_3541744.jpeg);
+    background-size: cover;
+    background-position:  center;
+    height: 100vh;
+}
+
+
+
+.background-img {
+    width: 100%;
+    padding: 10%;
+    background-size:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background:rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color:goldenrod;
+}
+
+
+::placeholder{
+    color: black;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: goldenrod;
+    cursor: pointer;
+}
+

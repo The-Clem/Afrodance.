@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizkid Hoodies</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!--Boostrap link-->
+
+ <script src="https://kit.fontawesome.com/26a91d63d1.js" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" 
+ integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/> <!--Font Awesome icons link-->
+
+ <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> <!--google font-->
+ <link href="style/normalize.css" rel="stylesheet" type="text/css">
+
+ <link rel="stylesheet" href="Wizkid.css">
+
+
+</head>
+<body>
+    
+      <!--Navigation Bar from Boostrap-->
+      <header class="main-header">
+      <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+        <a href="index.html"><img src="/IMAGES/logo1 copy 2.png" alt="Brand Logo"></a> 
+        <div class="container-fluid">
+          <button style="background-color: goldenrod;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="background-color: goldenrod;" class="navbar-toggler-icon"></span>
+          </button>
+          <div  class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul  class="navbar-nav ml-auto">
+              
+              <li class="nav-item">
+                
+                <a style="color: black;" class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a  class="nav-link" href="Login.html">Login</a>
+              </li>
+             
+  
+            </ul>
+          
+            <i class="fa-brands fa-searchengin"></i>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" ></i></a>
+  
+  
+          </div>
+        </div>
+      </nav>
+
+  </header>
+
+  <section class="container content-section">
+    <h2 class="section-header">Unisex Hoodies</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Wizkid: white</span>
+            <img class="shop-item-image" src="Images/hoodies/wiz hoodie white.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Wizkid: blue</span>
+            <img class="shop-item-image" src="Images/hoodies/Wiz hoodie blue.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$39.99</span>
+                <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Wizkid: green</span>
+            <img class="shop-item-image" src="Images/hoodies/Wiz Hoodie green.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$39.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Wizkid: white</span>
+            <img class="shop-item-image" src="Images/hoodies/wiz hoodie white.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$39.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100">
+                <span class="cart-item-title">T-Shirt</span>
+            </div>
+            <span class="cart-price cart-column">$19.99</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="Images/Album 3.png" width="100" height="100">
+                <span class="cart-item-title">Album 3</span>
+            </div>
+            <span class="cart-price cart-column">$9.99</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="2">
+                <button class="btn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$39.97</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+
+      <section id="Related Products" class="my-5 pb-5">
+        <div class="container text-center py-5">
+          <h3>Related Products</h3>
+          <hr class="mx-auto">
+          <p>Here you can find Related Products</p>
+        </div>
+        
+        
+
+        <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="/IMAGES/Hats/wiz black.png" alt="Wizkid hat">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+            <h5 class="p-name">Wizkid</h5>
+            <h4 class="p-price">$29.99</h4>
+            <button class="Buy-btn">Buy Now</button>
+           </div>
+
+
+           
+
+           <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="/IMAGES/hoodies/Rema hoodie green.png" alt="Rema hoodie">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+              <h5 class="p-name">Rema Hoodie</h5>
+              <h4 class="p-price">$39.99</h4>
+              <button class="Buy-btn">Buy Now</button>
+             </div>
+
+             <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid mb-3" src="/IMAGES/hoodies/Tems hoodie black.png" alt="Tems hoodie">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+                <h5 class="p-name">Tems Hoodie</h5>
+                <h4 class="p-price">$35.99</h4>
+                <button class="Buy-btn">Buy Now</button>
+               </div>
+
+               <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="/IMAGES/Hats/Asake black.png" alt="Asake hat">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                  <h5 class="p-name">Asake</h5>
+                  <h4 class="p-price">$24.99</h4>
+                  <button class="Buy-btn">Buy Now</button>
+                 </div>
+
+          
+
+  
+                              
+    
+
+        </div>
+
+      </section>
+
+
+      
+      <footer>
+        <div class="">
+          <!-- Footer -->
+          <footer
+                  class="text-center text-lg-start text-white"
+                  style="background-color:rgb(40, 38, 38)"
+                  >
+            <!-- Grid container -->
+            <div class=" p-4 pb-0">
+              <!-- Section: Links -->
+              <section class="">
+                <!--Grid row-->
+                <div class="row">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                      
+                      <img src="/IMAGES/logo1 copy 2.png" alt="">
+                    </h6>
+                    <p>
+                      Afrodance offers best quality Outfits base on afrobeats artists, <br> we offer our customers monthly discounts.
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <hr class="w-100 clearfix d-md-none" />
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
+                    <p>
+                      <a style="color: gold;" class="nav-link"  href ="index.html" class="active">Home</a>
+                      <a style="color: gold;" class="nav-link"  href ="shop.html">Shop</a>
+                      <a style="color: gold;" class="nav-link"  href ="gallery.html">Gallery</a>
+                      <a style="color: gold;" class="nav-link"  href  ="About"> About</a>
+                      <a style="color: gold;" class="nav-link"  href ="Login.html">Login</a>
+                      
+                     
+                  </div>
+                  <!-- Grid column -->
+        
+                  <hr class="w-100 clearfix d-md-none" />
+        
+                  <!-- Grid column -->
+                  <hr class="w-100 clearfix d-md-none" />
+        
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fas fa-home mr-3"></i> Manchester, United Kingdom</p>
+                    <p><i class="fas fa-envelope mr-3"></i> Afrodance@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> +44 7466511692</p>
+                    <p><i class="fas fa-print mr-3"></i> +44 7466511692</p>
+                    <img src="/IMAGES/payments.png" alt="payments">
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+        
+                    <!-- Facebook -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #3b5998"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-facebook-f"></i
+                      ></a>
+        
+                    <!-- Twitter -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #55acee"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-twitter"></i
+                      ></a>
+        
+                    <!-- Youtube -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #eb1e03"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-youtube"></i
+                      ></a>
+        
+                    <!-- Instagram -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #ac2bac"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-instagram"></i
+                      ></a>
+        
+                    <!-- Google -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #2a37ec"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-google"></i
+                      ></a>
+                    <!-- Tiktok -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #333333"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-tiktok"></i
+                      ></a>
+                  </div>
+                </div>
+                <!--Grid row-->
+              </section>
+              <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div
+                 class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)"
+                 >
+              © 2023 Copyright:
+              <a class="text-white" href="index.html"
+                 >Afrodance.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+        </div>
+        <!-- End of .container -->
+      </footer>
+  
+                   
+                     
+           
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> <!--Boostrap Script for Navbar Toogle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> <!--Boostrap Script for Navbar Toogle-->
+
+
+    <script src="Wizkid.js"></script>
+</body>
+</html>

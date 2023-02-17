@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family:'Popping', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+
+}
+
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+h5 {
+    font-size: 1ren;
+    font-weight: 400;
+    color: black;
+}
+
+h6 {
+    color: goldenrod;
+}
+
+
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: goldenrod;
+}
+
+.star{
+    padding: 10px 0;
+}
+
+.star i{
+    font-size: 0.8rem;
+    color:orange ;
+}
+
+.navbar{
+
+    background-image: url(/IMAGES/Wallpaper5.png);
+    font-size: 16px;
+    top: 0;
+    left: 0;
+   
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: goldenrod;
+}
+
+
+
+.navbar .nav-item a{
+    text-decoration: none;
+    font-weight: 6px;
+    transition: 0.4s ease ;
+    padding: 10px 16px;
+    border-radius: 99px;
+    font-size:x-large;
+    
+}
+
+.nav-item{
+    color: goldenrod;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+.nav-item a:hover, a.active{
+    background-color: white;
+}
+
+.collapse i:hover,  .navbar,  i.active{
+    background-color: white;
+}
+
+
+.collapse i{
+    font-size: 2.2rem;
+    padding: 0 23px;
+    margin-right: -30px;
+    cursor: pointer;
+    transition: 0.3 ease;
+    color: goldenrod;
+    border-radius: 99px;
+}
+
+
+
+.collapse .btn{
+
+background-color: goldenrod;
+border-color:goldenrod;
+}
+
+
+
+
+#home {
+    background-image: url(/IMAGES/vecteezy_handsome-positive-man-dancing-with-headphones__198.jpg);
+    width: 100%;
+    height:100vh;
+    background-size:cover;
+    background-position: top  center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+
+}
+
+
+
+#home span{
+    color: crimson;
+}
+
+
+
+#home .container2{
+    margin-inline: 10%;
+}
+
+
+
+.container2{
+    margin-top: 170px;
+}
+
+
+
+
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -700px;
+    transition: 0.3s ease;
+}
+
+#new .one:hover .details{
+    cursor: pointer;
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: goldenrod;
+
+}
+
+
+
+
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+#new .one .details{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
+
+}
+
+
+#new .one:hover .details{
+    cursor: pointer;
+    background-color:rgba(245, 178, 178, 0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.gallery{
+    
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    
+    margin-bottom:300px;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background: white;
+
+}
+
+.content:hover{
+
+    box-shadow: 0 30px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px,  -8px);
+}
+
+.content button{
+    font-size: 24px;
+    font-weight: 700;
+    outline: none;
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px;
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button:hover{
+    background-color: goldenrod;
+
+}
+
+
+.content img{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+   
+}
+.content p{
+    text-align: center;
+    color: chocolate;
+    padding-top: 0 8px;
+
+}
+
+.content h6{
+    font-size: 20px;
+    text-align: center;
+    color:lightslategray;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+li{
+    padding: 5px;
+}
+
+.fa{
+    font-size: 26px;
+    transition: 0.4s;
+    
+
+}
+
+.checked {
+    color: orange;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+
+.buy-1{
+    background-color: rgb(36, 124, 124);
+}
+
+.buy-2{
+    background-color: rgb(92, 146, 82);
+}
+
+.buy-3{
+    background-color: rgb(15, 13, 112);
+}
+
+.buy-4{
+    background-color: rgb(113, 27, 27);
+}
+
+
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+
+@media(max-width:1500px){
+    .content{
+        width: 100%;
+    }
+}
+
+
+/* Products */
+
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product img:hover{
+    opacity: 0.7;
+    
+}
+
+.product .Buy-btn{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .Buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#banner span{
+    color: crimson;
+}
+#banner{
+    background-image: url(/IMAGES/vecteezy_attractive-young-woman-pointing-by-her-finger-sideways-place-for-copy-space_3492044.jpg);
+    width: 100%;
+    height:60vh;
+    background-size:cover;
+    background-position: top  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+#banner h4{
+    color: green;
+    
+}
+
+
+
+
+
+#banner2 span{
+    color: crimson;
+}
+#banner2{
+    background-image: url(/IMAGES/Hats/Hat\ Models.jpg);
+    width: 100%;
+    height:60vh;
+    background-size:cover;
+    background-position: top  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+#banner2 h4{
+    color: green;
+}
+#banner2 h1{
+    color: whitesmoke;
+}
+
+#banner3 span{
+    color: crimson;
+}
+#banner3{
+    background-image: url(/IMAGES/hoodies/Hoodie\ models.jpg);
+    width: 100%;
+    height:60vh;
+    background-size:cover;
+    background-position: top  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+#banner3 h4{
+    color: green;
+}
+#banner3 h1{
+    color: whitesmoke;
+}
+
+.d-flex{
+    width: 100%;
+}
+
+
+.container .row{
+    margin-top: 200px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mall-img-col{
+    flex-basis: 25%;
+}
+
+.sproduct select{
+    display: block;
+    padding: 5px 10px;
+    
+}
+.sproduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sproduct input:focus{
+    outline: none;
+}
+
+
+
+.small-img-col{
+    cursor: pointer;
+}
+
+
+
+#Cart-home{
+    margin-top: 200px;
+}
+
+
+#cart-container{
+    overflow-x: auto;
+}
+
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart-container table thead{
+    font-weight: 700;
+}
+
+#cart-container table thead td{
+    background-color: goldenrod;
+    color: whitesmoke;
+    border: none;
+    padding: 6px 0;
+}
+
+#cart-container table td{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+
+#cart-container table td:nth-child(1){
+    width: 100px;
+}
+
+#cart-container table td:nth-child(2){
+    width: 200px;
+}
+#cart-container table td:nth-child(3){
+    width: 200px;
+}
+#cart-container table td:nth-child(4){
+    width: 170px;
+}
+#cart-container table td:nth-child(5){
+    width: 170px;
+}
+#cart-container table td:nth-child(6){
+    width: 170px;
+}
+
+#cart-container table tbody img{
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+}
+#cart-container table tbody i{
+    color: red;
+}
+
+#cart-bottom .coupon>div,
+#cart-bottom .total>div{
+    border: 1px solid gray;
+}
+
+
+#cart-bottom .coupon h5,
+#cart-bottom .total h5{
+    background-color: goldenrod;
+    color: whitesmoke;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 70o;
+
+}
+
+#cart-bottom .coupon p,
+#cart-bottom .coupon input{
+    padding: 0 12px;
+}
+
+
+#cart-bottom .coupon input{
+    height: 44px;
+    
+}
+#cart-bottom .coupon input,
+#cart-bottom .coupon button{
+    margin: 0 0 20px 12px;
+}
+
+
+#cart-bottom .total div>div{
+    padding: 0 12px;
+    
+}
+
+#cart-bottom .total h6{
+    color: black;
+}
+
+.second-hr{
+    background-color:goldenrod ;
+    width: 100%;
+    height: 1px;
+}
+
+
+#cart-bottom .total div>button{
+    margin: 0 12px 20px 0;
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+
+
+
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: rgb(117, 118, 115);
+}
+
+.about img{
+    height: auto;
+    width: 520px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-test{
+    width: 550px;
+    margin-top: 200px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-test h1{
+    color: whitesmoke;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-test h5{
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-test span{
+    color: goldenrod;
+}
+.about-test p{
+    color: rgb(18, 18, 18);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
